@@ -1,0 +1,491 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .banner-content h2 {
+        font-size: 30px;
+        color: #262626;
+        line-height: 38px;
+        margin: 0 0 14px 0;
+        text-align: center;
+    }
+    .banner-content-wrapper{
+        margin-top: 220px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        color: #293A4E;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 0 0 85px 0;
+      text-transform: none;
+      text-align: center;
+    }
+    .btn-solid {
+        font-size: 12px;
+    }
+    .btn-solid-white{
+        font-size: 12px;
+     
+    }
+    .fun-facts-info h2{
+        font-size: 23px;
+        color: #000000;
+        line-height: 40px;
+        margin: 0 0 10px 0;
+    }
+    .fun-facts-info p{
+        font-size: 14px;
+        color: #5D6467;
+        line-height: 30px;
+        text-transform: none;
+        margin: 0;
+    }
+    .platfrom-tittle h2{
+     
+        font-size: 25px;
+       
+    }
+    .platfrom-tittle p{
+        font-size: 13px;
+    }
+    .ride {
+        margin: 40px auto;
+        width: 75%;
+    }
+    .main-platform-img img{
+       display: none;
+    }
+    .main-platform-img{
+        display: none;
+    }
+    .main-platform-information h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .main-platform-information p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .btn-solid-link {
+        display: block;
+        height: 43px;
+        background-color: #e83330;
+        color: #ffffff;
+        line-height: 43px;
+        width: 186px;
+        font-size: 14px;
+        padding: 0 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        border: none;
+    }
+    .movingsafely-tittle h2{
+        text-align: center;
+        font-size:22px;
+        color: #000000;
+        line-height: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .safe-insurance-image {
+        position: absolute;
+        bottom: -36px;
+        z-index: 100;
+        text-align: center;
+        left: 30%;
+    }
+    .safe-content{
+        padding-top: 50px;
+        padding-bottom: 55px;
+       
+    }
+    .safe-content h3{
+        font-size: 15px;
+        color: #000000;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .safe-content p{
+        font-size: 12px;
+        color: #646464;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .earn-section{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .section-title h2 {
+        font-size: 23px;
+        color: #000000;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .section-title p{
+        font-size: 14px;
+        color: #5d6467;
+        line-height: 20px;
+        margin: 0 0 40px 0;
+    }
+    .download-img img{
+        display: none;
+    }
+    .download-information h3 {
+        font-size: 22px;
+        color: #152934;
+        line-height: 30px;
+        text-align: center;
+    }
+    .download-information p{
+        font-weight: 400;
+        font-size: 14px;
+        color: #5D6467;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .section-title-newshead h2 {
+        font-size: 25px;
+        color: #000000;
+        line-height: 50px;
+        text-align: center;
+    }
+    .imgage-clent{
+      margin: auto;
+    }
+    .tab-pane{
+        display: none;
+    }
+    .merchant-signup-info p {
+        font-size: 14px;
+        color: #5d6467;
+        line-height: 20px;
+    }
+    .merchant-signup-info h2 {
+        font-size: 25px;
+        color: #000000;
+        line-height: 46px;
+        margin-bottom: 0;
+    }
+    .btn-solid-link3 {
+        display: block;
+        height: 60px;
+        background-color: #e83330;
+        color: #ffffff;
+        line-height: 43px;
+        width: 240px;
+        font-size: 12px;
+        padding: 0 30px;
+        border-radius: 4px;
+        border: none;
+        margin: 0;
+        /* margin-top: 8px; */
+        padding-top: 8px;
+    }
+    .blog-button{
+        display: none;
+    }
+    .blog-featured{
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .section-title-blog h2 {
+        font-size: 25px;
+        color: #152934;
+        line-height: 42px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .banner-content h2 {
+        font-size: 33px;
+        width: 400px;
+        
+        color: #262626;
+        line-height: 38px;
+        margin: 0 0 14px 0;
+        margin: auto;
+        text-align: center;
+    }
+    .banner-content-wrapper{
+        margin-top:300px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        color: #293A4E;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 0 0 85px 0;
+      text-transform: none;
+      text-align: center;
+    }
+    .fun-facts-info h2{
+        font-size: 23px;
+        color: #000000;
+        line-height: 40px;
+        margin: 0 0 10px 0;
+    }
+    .fun-facts-info p{
+        font-size: 14px;
+        color: #5D6467;
+        line-height: 30px;
+        text-transform: none;
+        margin: 0;
+    }
+
+    .platfrom-tittle h2{
+     
+        font-size: 25px;
+       
+    }
+    .platfrom-tittle p{
+        font-size: 13px;
+    }
+
+    .main-platform-img img{
+       display: none;
+    }
+    .main-platform-img{
+        display: none;
+    }
+    .main-platform-information h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .main-platform-information p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .btn-solid-link {
+        display: block;
+        height: 43px;
+        background-color: #e83330;
+        color: #ffffff;
+        line-height: 43px;
+        width: 186px;
+        font-size: 14px;
+        padding: 0 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        border: none;
+    }
+    .movingsafely-tittle h2{
+        text-align: center;
+        font-size:22px;
+        color: #000000;
+        line-height: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .safe-insurance-image {
+        position: absolute;
+        bottom: -36px;
+        z-index: 100;
+        text-align: center;
+        left: 30%;
+    }
+    .safe-content{
+        padding-top: 50px;
+        padding-bottom: 55px;
+       
+    }
+    .safe-content h3{
+        font-size: 15px;
+        color: #000000;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .safe-content p{
+        font-size: 12px;
+        color: #646464;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .earn-section{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .section-title h2 {
+        font-size: 23px;
+        color: #000000;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .section-title p{
+        font-size: 14px;
+        color: #5d6467;
+        line-height: 20px;
+        margin: 0 0 40px 0;
+    }
+    .download-img img{
+        display: none;
+    }
+    .download-information h3 {
+        font-size: 22px;
+        color: #152934;
+        line-height: 30px;
+        text-align: center;
+    }
+    .download-information p{
+        font-weight: 400;
+        font-size: 14px;
+        color: #5D6467;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .section-title-newshead h2 {
+        font-size: 25px;
+        color: #000000;
+        line-height: 50px;
+        text-align: center;
+    }
+    .imgage-clent{
+      margin: auto;
+    }
+    .tab-pane{
+        display: none;
+    }
+    .merchant-signup-info p {
+        font-size: 14px;
+        color: #5d6467;
+        line-height: 20px;
+    }
+    .merchant-signup-info h2 {
+        font-size: 25px;
+        color: #000000;
+        line-height: 46px;
+        margin-bottom: 0;
+    }
+    .btn-solid-link3 {
+        display: block;
+        height: 60px;
+        background-color: #e83330;
+        color: #ffffff;
+        line-height: 43px;
+        width: 240px;
+        font-size: 12px;
+        padding: 0 30px;
+        border-radius: 4px;
+        border: none;
+        margin: 0;
+        /* margin-top: 8px; */
+        padding-top: 8px;
+    }
+    .blog-button{
+        display: none;
+    }
+    .blog-featured{
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .section-title-blog h2 {
+        font-size: 25px;
+        color: #152934;
+        line-height: 42px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .banner-content-wrapper{
+        margin-top: 70px;
+    }  
+    .banner-content h2 {
+        font-size: 46px;
+        color: #262626;
+        line-height: 59px;
+        margin: 0 0 14px 0;
+        text-transform: none;
+    }
+    .banner-content p {
+        font-size: 18px;
+        color: #293A4E;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin: 0 0 40px 0;
+        text-transform: none;
+    }
+    .fun-facts-info h2 {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        line-height: 20px;
+        margin: 0px 0px 10px;
+    }
+    .fun-facts-info p {
+        font-size: 13px;
+        color: #5D6467;
+        line-height: 30px;
+        text-transform: none;
+        margin: 0;
+    }
+    .main-platform-information h3 {
+        font-size: 20px;
+        color: #000000;
+        line-height: 32px;
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    .main-platform-information p {
+        font-size: 13px;
+        color: #646464;
+        line-height: 26px;
+        margin: 0;
+    }
+    .movingsafely-tittle h2 {
+        text-align: center;
+        font-size: 34px;
+        color: rgb(0, 0, 0);
+        line-height: 30px;
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+    .app-mockup{
+        display: none;
+    }
+    .news-tittle {
+        font-size: 16px;
+        color: #152934;
+        margin-bottom: 15px;
+    }
+    .excerpt {
+        font-size: 24px;
+        color: #152934;
+        line-height: 34px;
+        margin-bottom: 40px;
+    }
+    .btn-trans {
+        font-size: 14px;
+        color: rgb(232, 51, 48);
+        line-height: 16px;
+        font-weight: 500;
+    }
+    .blog-button{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}

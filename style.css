@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+/* nav bar  */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 26px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {color: red;}
+
+  header{
+      background-image: url('img/01-home.png');
+      width: 100%;
+      /* height: 100vh; */
+      background-size: 100% auto;
+      background-position: center top;
+      background-repeat: no-repeat;
+      position: relative;
+  }
+  .banner-content-wrapper{
+      margin-top: 85px;
+  }
+  .banner-content h2{
+      font-size: 50px;
+      color: #262626;
+      line-height: 65px;
+      margin: 0 0 14px 0;
+      text-transform: none;
+  }
+  .banner-content p{
+      font-size: 18px;
+      color: #293A4E;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin: 0 0 85px 0;
+    text-transform: none;
+  }
+  .button-group{
+    margin-bottom: 20px;
+    /* display: flex;
+    align-items: center; */
+  }
+  .button-group a{
+      min-width: 300px;
+      
+  }
+  .btn-solid {
+    width: auto;
+    height: 60px;
+    background-color: #e83330;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: left;
+    padding: 0 30px;
+    display: inline-block;
+    transition: 0.3s;
+    border: none;
+}
+.btn-solid:hover{
+    background-color: #D41D1A;
+    color: white;
+}
+.arrow-icons {
+    margin-left: 90px;
+    transition: 0.4s;
+}
+.arrow-icons-red{
+    margin-left: 50px;
+    transition: 0.4s;
+}
+.btn-solid:hover .arrow-icons{
+    margin-left: 95px;
+    overflow: hidden;
+}
+.btn-solid-white:hover .arrow-icons-red{
+    margin-left: 55px;
+    overflow: hidden;
+}
+.btn-solid-white{
+    margin-bottom: 20px;
+    min-width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #D0D8DC;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    color: #152934;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: left;
+    padding: 0 30px;
+    display: inline-block;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.btn-solid-white:hover{
+    color: #152934;
+   
+}
+.fun .col-lg-3{
+padding: 0 !important;
+}
+ .fun-facts-inner{
+   
+    border-radius: 8px;
+    background-color: #ffffff;
+    
+    padding: 30px;
+
+    /* top: -235px;
+    left: 0; */
+}
+
+.fun-facts-info{
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -180px;
+
+}
+.fun-facts-info h2{
+    font-size: 32px;
+    color: #000000;
+    line-height: 40px;
+    margin: 0 0 10px 0;
+}
+.fun-facts-info p{
+    font-size: 16px;
+    color: #5D6467;
+    line-height: 30px;
+    text-transform: none;
+    margin: 0;
+}
+
+.info-border{
+    border-radius: 7px 0px 0px 7px;
+}
+.info-border-right{
+    border-radius: 0px 7px 7px 0px;
+}
+
+
+/* পাঠাও প্ল্যাটফর্ম */
+.platfrom {
+    padding-top: 94px;
+    border-bottom: 1px solid #EDF1F4;
+}
+.platfrom-tittle h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #000000;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+.platfrom-tittle p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5d6467;
+    line-height: 30px;
+}
+.ride {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #dddfe0;
+    padding: 0 40px 19px 40px;
+    margin: 40px 0;
+    width: 200px;
+}
+.ride h2{
+    font-size: 18px;
+    color: #152934;
+}
+.main-platform-img{
+    background-image: url('img/mobile-screen-2.png');
+    background-size: 100% auto;
+    width: 472px;
+    height: 638px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.main-platform-img img{
+    width: 324px;
+    height: auto;
+    position: absolute;
+    top: 85px;
+    right: 41px;
+    border-radius: 15px;
+}
+.main-platform-information{
+    padding-top: 45px;
+}
+.main-platform-information h3{
+    font-size: 22px;
+    color: #000000;
+    line-height: 32px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.main-platform-information p{
+    font-size: 15px;
+    color: #646464;
+    line-height: 26px;
+    margin: 0;
+}
+.btn-solid-link {
+    display: block;
+    height: 43px;
+    background-color: #e83330;
+    color: #ffffff;
+    line-height: 43px;
+    width: 186px;
+    font-size: 14px;
+    padding: 0 30px;
+    margin-top: 50px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-solid-link:hover{
+    background-color: #D41D1A;
+    color: white;
+}
+.arrow-icons-solid {
+    margin-left: 25px;
+    transition: 0.4s;
+}
+.btn-solid-link:hover .arrow-icons-solid{
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+/* আমাদের সাথেই হোক #MovingSafely! */
+.MovingSafely{
+    padding-top: 120px;
+    /* padding-bottom: 50px; */
+    border-bottom: 1px solid #EDF1F4;
+}
+.movingsafely-tittle h2{
+    text-align: center;
+    font-size:38px;
+    color: #000000;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.safe-border-inner{
+    padding: 30px 30px 0 30px;
+    position: relative;
+}
+.safe-image-box-part{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.safe-image-box{
+    width: auto;
+    margin-bottom: 37px;
+}
+.safe-image-box img{
+    width: auto;
+    height: 224px;
+}
+.safe-insurance-image {
+    position: absolute;
+    bottom: -36px;
+    z-index: 100;
+    text-align: center;
+    left: 42%;
+}
+.safe-insurance-image img{
+    width: 200px;
+}
+.safe-border-inner{
+    transition: 0.3s;
+}
+.safe-border-middle:hover .safe-border-inner{
+    border: 2px solid #4caf50;
+    
+}
+.safe-content{
+    padding-top: 100px;
+    padding-bottom: 75px;
+   
+}
+.safe-content h3{
+    font-size: 28px;
+    color: #000000;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.safe-content p{
+    font-size: 16px;
+    color: #646464;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+.btn-trans{
+    font-size: 15px;
+    color: #e83330;
+    line-height: 16px;
+    font-weight: 500;
+}
+.btn-trans:hover{
+    color: #e83330;
+}
+.blank-arrow{
+    margin-left: 3px;
+    transition: 0.4s;
+}
+.btn-trans:hover .blank-arrow{
+    margin-left: 8px;
+    overflow: hidden;
+}
+
+/* বাইক, গাড়ি অথবা সাইকেলের মাধ্যমে আয় করুন */
+.earn-section{
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+.section-title{
+    text-align: center !important;
+    margin-bottom: 70px;
+}
+.section-title h2 {
+    font-size: 37px;
+    color: #000000;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.section-title p{
+    font-size: 18px;
+    color: #5d6467;
+    line-height: 30px;
+    margin: 0 0 40px 0;
+}
+.btn-solid-link2 {
+    display: block;
+    height: 43px;
+    background-color: #e83330;
+    color: #ffffff;
+    line-height: 43px;
+    width: 186px;
+    font-size: 14px;
+    padding: 0 30px;
+    border-radius: 4px;
+    border: none;
+    margin: auto;
+}
+.btn-solid-link2:hover{
+    background-color: #D41D1A;
+    color: white;
+}
+.arrow-icons-solid2 {
+    margin-left: 30px;
+    transition: 0.4s;
+}
+.btn-solid-link2:hover .arrow-icons-solid2{
+    margin-left: 25px;
+    overflow: hidden;
+}
+.earn-illustration{
+    background-image: url('img/Pathao-ecosystem.jpg');
+    width: 100%;
+    height: 410px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* অ্যাপ ডাউনলোড করুন */
+.download-section{
+    padding-top: 30px;
+    /* padding-bottom: 50px; */
+    background-color: #FBFBFB;
+}
+.download-img {
+    width: 530px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.download-information{
+    padding-top: 50px;
+
+}
+.download-information h3 {
+    font-size: 35px;
+    color: #152934;
+    line-height: 50px;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+.download-information p{
+    font-weight: 400;
+    font-size: 17px;
+    color: #5D6467;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.download-button{
+    padding-top: 30px;
+}
+.download-button h4 {
+    font-size: 14px;
+    color: #152934;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+/* আমাদের নিয়ে লেখা হয়েছে */
+.newsheadlines-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-title-newshead{
+    margin-bottom: 40px;
+}
+.section-title-newshead h2 {
+    font-size: 37px;
+    color: #000000;
+    line-height: 50px;
+    text-align: center;
+}
+
+.imgage-clent{
+    max-width: 172px;
+}
+.newsheadline-content{
+    padding: 35px;
+    border: 1px solid #D0D8DC;
+    border-radius: 4px;
+}
+.newshead-image{
+    margin-bottom: 25px;
+}
+.newshead-image img{
+    cursor: pointer;
+}
+.news-tittle{
+    font-size: 20px;
+    color: #152934;
+    margin-bottom: 15px;
+}
+.excerpt{
+    font-size: 32px;
+    color: #152934;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+/* আপনার ব্যবসার বিশ্বস্ত ও আদর্শ ডেলিভারি সিস্টেম */
+.merchant-signup-section{
+    padding: 100px 0;
+    background-color: rgba(232,51,48,0.03);
+
+}
+/* .merchant-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+.merchant-signup-info p {
+    font-size: 16px;
+    color: #5d6467;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.merchant-signup-info h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 56px;
+    margin-bottom: 0;
+}
+/* .merchant-signup-info{
+    width: 50%;
+} */
+
+.btn-solid-link3 {
+    display: block;
+    height: 60px;
+    background-color: #e83330;
+    color: #ffffff;
+    line-height: 43px;
+    width: 280px;
+    font-size: 14px;
+    padding: 0 30px;
+    border-radius: 4px;
+    border: none;
+    margin: auto;
+    /* margin-top: 8px; */
+    padding-top: 8px;
+}
+.btn-solid-link3:hover{
+    background-color: #D41D1A;
+    color: white;
+}
+.arrow-icons-solid3 {
+    margin-left: 30px;
+    transition: 0.4s;
+}
+.btn-solid-link3:hover .arrow-icons-solid3{
+    margin-left: 25px;
+    overflow: hidden;
+}
+/* ব্লগ থেকে */
+.blog-featured{
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+.section-title-blog h2 {
+    font-size: 29px;
+    color: #152934;
+    line-height: 42px;
+    font-weight: 500;
+}
+.blog-button{
+    text-align: right;
+}
+.btn-solid-white2{
+    margin-bottom: 20px;
+    /* min-width: 300px; */
+    background: #FFFFFF;
+    border: 1px solid #D0D8DC;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    color: #152934;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: left;
+    padding: 0 30px;
+    display: inline-block;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.btn-solid-white2:hover .arrow-icons-red2{
+    margin-left: 45px;
+    overflow: hidden;
+}
+.arrow-icons-red2{
+    margin-left: 40px;
+    transition: 0.4s;
+}
+.blog-card-tittle {
+    font-size: 19px;
+    color: #000000;
+    line-height: 28px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 25px 30px;
+}
+.bolog-card {
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.bolog-card:hover{
+    box-shadow: 0 10px 15px 0 #ededed, 0 0 1px 0 #ece8eb;
+}
+.blog-info{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0 0 05px 0;
+}
+.blog-info-pra01{
+    font-size: 13px;
+    color: #5a6872;
+    font-weight: 300;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.blog-info-pra01:hover{
+    color: #D41D1A;
+}
+.blog-info-pra02{
+    font-size: 13px;
+    color: #5a6872;
+    font-weight: 300;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+.blog-icons {
+    width: 5px;
+    height: 5px;
+    background-color: #152934;
+    border-radius: 50%;
+    margin-top: -17px;
+}
+
+/*  footer-stopper */
+.footer-stopper{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #000;
+}
+.widget-title{
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-bottom: 55px;
+    padding-left: 0;
+}
+.menu-item-type-post_type{
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    padding: 4px 0;
+    display: block;
+    cursor: pointer;
+}
+
+/* <!-- footer menu items --> */
+.footer-single-menu{
+    padding: 30px 0;
+    border-top: 1px solid #202020;
+}
+.footer-logo img{
+    width: 101px;
+}
+.single-menu-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.single-menu-item p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0;
+}
+/* Footer button area */
+.copy-right-area{
+    padding: 30px 0 40px 0;
+    border-top: 1px solid #202020;
+}
+.app-link p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 200;
+    padding-right: 7px;
+    margin-bottom: 0;
+}
+.app-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.app-link img{
+    max-width: 133px;
+    height: auto;
+    cursor: pointer;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.social-link i{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-language{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+.footer-language h2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0;
+}
+.footer-language p{
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 200;
+}
+.copy-right-text p{
+    font-size: 14px;
+    color: #797e80;
+    line-height: 24px;
+    margin: 0;
+}
+.menu-footer-bottom-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-footer-bottom-menu p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.scrollTop2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(224, 39, 0);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99999;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 16%) !important;
+    /* display: none; */
+}
+.scrollTop2 a{
+    color: #fff;
+}
+.scrollTop2 i {
+    font-size: 42px;
+}
